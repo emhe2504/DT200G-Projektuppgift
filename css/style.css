@@ -1,0 +1,237 @@
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: #fb9c9c;
+}
+
+.jomhuria {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.roboto-bold{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
+    background-color: #f58585;
+}
+
+#logo {
+    justify-self: center;
+    align-self: center;
+}
+
+#header-head {
+    color: white;
+    font-size: 550%;
+}
+
+#basket {
+    justify-self: right;
+    align-self: center;
+    padding-bottom: 6%;
+
+}
+
+#sok {
+    justify-self: center;
+    align-self: center;
+}
+
+#login {
+    align-self: center;
+    padding-bottom: 4%;
+    color: white;
+    font-size: 150%;
+}
+
+#hero {
+    z-index: 1;
+}
+
+#hero-pic {
+    width: 100%;
+}
+
+#hero-text {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(251, 156, 156, 0.7);
+    border-radius: 10%;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+#hero-head {
+    font-size: 750%;
+    margin-bottom: 0;
+}
+
+#hero-subhead {
+    font-size: 150%;
+}
+
+#start-section1,
+#start-section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#start-head {
+    justify-self: center;
+    padding: 1%;
+    color: #f45656;
+    font-size: 250%;
+    margin-top: 4%;
+}
+
+#menu,
+#social-media {
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    border: 8px solid #f45656;
+    width: 55%;
+}
+
+#menu-head,
+#socials-head {
+    color: white;
+    font-size: 200%;
+}
+
+#menu-list,
+#socials-list {
+    display: grid;
+    list-style: none;
+    padding-left: 1%;
+    line-height: 2em;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+    color: white;
+    width: 85%;
+}
+
+#dog,
+#cat,
+#all {
+    border: 3px solid white;
+    margin-bottom: 10%;
+    padding-left: 2%;
+}
+
+#dog-link,
+#cat-link,
+#all-link {
+    color: white;
+    text-decoration: none;
+}
+
+#product1,
+#product2,
+#product3,
+#product4 {
+    justify-self: center;
+    align-content: center;
+}
+
+#product1-head,
+#product2-head,
+#product3-head,
+#product4-head {
+    justify-self: center;
+    font-size: 180%;
+}
+
+#product1-link,
+#product2-link,
+#product3-link,
+#product4-link {
+    color: #f45656;
+    text-decoration: none;
+}
+
+#product1-subhead,
+#product2-subhead,
+#product3-subhead,
+#product4-subhead {
+    justify-self: center;
+    color: #f45656;
+    font-size: 150%;
+}
+
+#koppel:hover,
+#kattbadd:hover,
+#leksak:hover,
+#beige-matskal:hover,
+#dog:hover,
+#cat:hover,
+#all:hover {
+    transform: scale(1.1);
+}
+
+#product1-head:hover,
+#product2-head:hover,
+#product3-head:hover,
+#product4-head:hover {
+    text-decoration: underline;
+    color: #f45656;
+}
+
+#koppel,
+#kattbadd,
+#leksak,
+#beige-matskal {
+    border: 4px solid #f45656;
+}
+
+#insta-div,
+#FB-div {
+    display: grid;
+    grid-template-columns: 1fr 80%;
+}
+
+#insta,
+#FB {
+    align-self: center;
+    margin-right: 2%;
+}
+
+footer {
+    display: grid;
+    background-color: #f45656;
+}
+
+#footer-section {
+    justify-self: center;
+    text-align: center;
+    color: white;
+}
+
+#footer-head {
+    font-size: 240%;
+    margin-bottom: 0;
+}
+
+#footer-subhead {
+    font-size: 200%;
+    margin-top: 0;
+}

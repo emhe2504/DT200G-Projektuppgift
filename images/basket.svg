@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+	<style>
+		.s0 { fill: #808080 } 
+		.s1 { fill: #4f3131 } 
+	</style>
+	<path id="Background" fill-rule="evenodd" class="s0" d="m39.03 146.51l0.03-5 120.92 0.76-0.03 5z"/>
+	<path id="Form 1" fill-rule="evenodd" class="s0" d="m44.41 142.74l-4.67 1.79-23.88-62.17 4.67-1.79z"/>
+	<path id="Form 2" fill-rule="evenodd" class="s0" d="m158.56 144.38l-4.77-1.49 19.71-62.93 4.78 1.49z"/>
+	<path id="Form 3" fill-rule="evenodd" class="s0" d="m17.81 85.48l0.01-5 159.21 0.38-0.01 5z"/>
+	<path id="Form 4" fill-rule="evenodd" class="s0" d="m58.96 83.1l4.9-0.99 12.51 61.79-4.9 0.99z"/>
+	<path id="Form 5" fill-rule="evenodd" class="s0" d="m132.5 82.89l4.91 0.94-11.76 61.03-4.91-0.94z"/>
+	<path id="Form 6" fill-rule="evenodd" class="s0" d="m31.08 115.81l0.01-5 134.57 0.38-0.01 5z"/>
+	<path id="Form 7" fill-rule="evenodd" class="s0" d="m55.39 145.7l3.7-3.37 19.33 21.23-3.7 3.36z"/>
+	<path id="Form 8" fill-rule="evenodd" class="s0" d="m131.59 142.88l4.45 2.27-10.61 20.85-4.46-2.27z"/>
+	<path id="Form 9" fill-rule="evenodd" class="s0" d="m75.44 166.98v-5h49.65v5z"/>
+	<path id="Form 10" fill-rule="evenodd" class="s0" d="m74.85 162.29l3.45 3.62-7.96 7.59-3.45-3.63z"/>
+	<path id="Form 11" fill-rule="evenodd" class="s0" d="m118.78 165.77l4.29-2.57 4.55 7.58-4.29 2.57z"/>
+	<path id="Form 12" fill-rule="evenodd" class="s0" d="m69 179c-2.21 0-4-2.24-4-5 0-2.76 1.79-5 4-5 2.21 0 4 2.24 4 5 0 2.76-1.79 5-4 5z"/>
+	<path id="Form 13" fill-rule="evenodd" class="s0" d="m127 180c-2.77 0-5-2.24-5-5 0-2.76 2.23-5 5-5 2.76 0 5 2.24 5 5 0 2.76-2.24 5-5 5z"/>
+	<path id="Form 14" fill-rule="evenodd" class="s0" d="m177.47 83.49l-4.67-1.78 9.09-23.88 4.68 1.78z"/>
+	<path id="Form 15" fill-rule="evenodd" class="s0" d="m164.21 82.71l-4.69-1.73 8.34-22.74 4.69 1.72z"/>
+	<path id="Form 16" fill-rule="evenodd" class="s0" d="m169.32 62.73l0.25-4.99 14.79 0.76-0.26 4.99z"/>
+	<path id="Form 17" fill-rule="evenodd" class="s0" d="m68 181c-3.32 0-6-2.46-6-5.5 0-3.04 2.68-5.5 6-5.5 3.32 0 6 2.46 6 5.5 0 3.04-2.68 5.5-6 5.5z"/>
+	<path id="Form 18" fill-rule="evenodd" class="s0" d="m126 182c-3.32 0-6-2.46-6-5.5 0-3.04 2.68-5.5 6-5.5 3.32 0 6 2.46 6 5.5 0 3.04-2.68 5.5-6 5.5z"/>
+	<path id="Form 19" fill-rule="evenodd" class="s1" d="m168.99 61.98l0.15-5 12.89 0.38-0.15 5z"/>
+</svg>

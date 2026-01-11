@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="200" height="200">
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: 5 } 
+		.t1 { font-size: 40px;fill: #ffffff;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<path id="Background" fill-rule="evenodd" class="s0" d="m379 503c-82.95 0-150-67.05-150-150 0-82.95 67.05-150 150-150 82.95 0 150 67.05 150 150 0 82.95-67.05 150-150 150z"/>
+	<path id="Form 1" fill-rule="evenodd" class="s0" d="m274.87 395.4l0.26-4.99c0 0 28.57 17.44 57.87 20.5 54.52 5.68 60.37-38.56 111-27 12.62 2.88 23.13 16.59 23.13 16.59l-0.26 5c0 0-6.16-10.92-14.87-12.59-60.73-11.68-69.99 33.7-134 22-22.31-4.08-43.13-19.51-43.13-19.51z"/>
+	<text id="Små Vänner" style="transform: matrix(1,0,0,1,253,358)" >
+		<tspan x="0" y="0" class="t1">S</tspan><tspan  y="0" class="t1">m</tspan><tspan  y="0" class="t1">å</tspan><tspan  y="0" class="t1"> </tspan><tspan  y="0" class="t1">V</tspan><tspan  y="0" class="t1">ä</tspan><tspan  y="0" class="t1">n</tspan><tspan  y="0" class="t1">n</tspan><tspan  y="0" class="t1">e</tspan><tspan  y="0" class="t1">r
+</tspan>
+	</text>
+</svg>
