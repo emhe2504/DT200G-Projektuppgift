@@ -215,6 +215,35 @@ header {
     margin-right: 2%;
 }
 
+#section1-categories {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+#categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+#categories-head {
+    color: white;
+    margin-left: 5%;
+    text-align: center;
+    align-self: center;
+    font-size: 150%;
+}
+
+#dog-cate,
+#cat-cate,
+#all-cate {
+    display: grid;
+    justify-self: center;
+    border: 3px solid white;
+    padding: 2%;
+    width: 50%;
+}
+
 footer {
     display: grid;
     background-color: #f45656;
