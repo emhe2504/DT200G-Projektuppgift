@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.hidden {
+    display: none;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
