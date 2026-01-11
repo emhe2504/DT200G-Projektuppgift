@@ -156,9 +156,12 @@ header {
 #product1-head,
 #product2-head,
 #product3-head,
-#product4-head {
+#product4-head,
+#dog1-head,
+#dog2-head {
     justify-self: center;
     font-size: 180%;
+    margin-bottom: 0;
 }
 
 #product1-link,
@@ -172,7 +175,9 @@ header {
 #product1-subhead,
 #product2-subhead,
 #product3-subhead,
-#product4-subhead {
+#product4-subhead,
+#dog1-subhead,
+#dog2-subhead {
     justify-self: center;
     color: #f45656;
     font-size: 150%;
@@ -191,7 +196,9 @@ header {
 #product1-head:hover,
 #product2-head:hover,
 #product3-head:hover,
-#product4-head:hover {
+#product4-head:hover,
+#dog1-head:hover,
+#dog2-head:hover {
     text-decoration: underline;
     color: #f45656;
 }
@@ -218,6 +225,7 @@ header {
 #section1-categories {
     display: grid;
     grid-template-columns: 20% 1fr;
+    margin-top: 3%;
 }
 
 #categories {
@@ -243,6 +251,26 @@ header {
     padding: 2%;
     width: 50%;
     font-size: 120%;
+}
+
+#dog-products {
+    display: grid;
+    text-align: center;
+    color: #f45656;
+    font-size: 250%;
+    margin-top: 4%;
+}
+
+#all-dogproducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4%;
+}
+
+#dog-product1,
+#dog-product2 {
+    display: grid;
+    text-align: center;
 }
 
 footer {
