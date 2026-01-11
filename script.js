@@ -2,11 +2,10 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const dogPicButton = document.getElementById("dogpictures-big");
-    const backButton = document.getElementById("close-pictures");
     const dogPicArticle = document.getElementById("dogpictures-zoom");
+    const dogPicButton = document.getElementById("dogpictures-big");
 
-    if (dogPicButton && backButton) {
+    if (dogPicButton) {
 
         if (dogPicArticle.classList.contains("hidden")) {
 
@@ -17,8 +16,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         };
-        
     };
 
+        const backButton = document.getElementById("close-pictures");
+
+        if (backButton) {
+        backButton.addEventListener("click", () => {
+
+            window.location.href = "leash.html";
+        });
+    }
 });
 
