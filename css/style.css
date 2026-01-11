@@ -306,6 +306,33 @@ header {
     font-weight: 600;
 }
 
+
+#close-pictures {
+    display: grid;
+    justify-self: center;
+    color: #f45656;
+    border: 3px solid #f45656;
+    background-color: rgb(251, 227, 227);
+    margin-top: 4%;
+    padding: 1%;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+#dogpictures-zoom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90vh;
+    max-width: 90vw;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    background: rgb(251, 227, 227);
+    padding: 10%;
+    z-index: 20;
+}
+
 #leash-video {
     display: grid;
     margin-top: 6%;

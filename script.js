@@ -2,16 +2,23 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const dogPicButton = document.getElementById("dogpictures-big")
-    const dogPicArticle = document.getElementById("dogpictures-zoom")
+    const dogPicButton = document.getElementById("dogpictures-big");
+    const backButton = document.getElementById("close-pictures");
+    const dogPicArticle = document.getElementById("dogpictures-zoom");
 
-    if (dogPicButton) {
-        document.addEventListener("click", () => {
+    if (dogPicButton && backButton) {
 
-        })
+        if (dogPicArticle.classList.contains("hidden")) {
+
+            dogPicButton.addEventListener("click", () => {
+
+            const dogPicArticle = document.getElementById("dogpictures-zoom")
+            dogPicArticle.classList.remove("hidden");
+        });
+
+        };
+        
     };
 
 });
-
-
 
