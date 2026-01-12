@@ -357,6 +357,7 @@ header {
 footer {
     display: grid;
     background-color: #f45656;
+    margin-top: 5%;
 }
 
 #footer-section {
