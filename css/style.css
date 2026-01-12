@@ -271,7 +271,8 @@ header {
 #dog-products,
 #leash-head,
 #beigebowl-head,
-#cat-products {
+#cat-products,
+#catbowl-head {
     display: grid;
     text-align: center;
     color: #f45656;
@@ -281,7 +282,8 @@ header {
 
 #all-dogproducts,
 #leash-pictures,
-#beigebowl-pictures {
+#beigebowl-pictures,
+#catbowl-pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 4%;
@@ -314,7 +316,8 @@ header {
 }
 
 #koppelbild1,
-#matskal1 {
+#matskal1,
+#kattskal1 {
     display: grid;
     border: 4px solid #f45656;
     justify-self: right;
@@ -323,7 +326,8 @@ header {
 
 
 #koppelbild2,
-#matskal2 {
+#matskal2,
+#kattskal2 {
     display: grid;
     border: 4px solid #f45656;
     justify-self: left;
@@ -331,7 +335,8 @@ header {
 }
 
 #dogpictures-big,
-#beigebowl-big {
+#beigebowl-big,
+#catbowl-big {
     display: grid;
     justify-self: center;
     color: black;
@@ -345,7 +350,8 @@ header {
 
 
 #close-pictures,
-#close-pictures2 {
+#close-pictures2,
+#close-pictures3 {
     display: grid;
     justify-self: center;
     color: black;
@@ -358,7 +364,8 @@ header {
 }
 
 #dogpictures-zoom,
-#beigebowl-zoom {
+#beigebowl-zoom,
+#catbowl-zoom {
     position: fixed;
     top: 50%;
     left: 50%;
