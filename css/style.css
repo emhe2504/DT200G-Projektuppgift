@@ -162,7 +162,10 @@ header {
 #product3-head,
 #product4-head,
 #dog1-head,
-#dog2-head {
+#dog2-head,
+#cat1-head,
+#cat2-head,
+#cat3-head {
     justify-self: center;
     font-size: 180%;
     margin-bottom: 0;
@@ -181,7 +184,10 @@ header {
 #product3-subhead,
 #product4-subhead,
 #dog1-subhead,
-#dog2-subhead {
+#dog2-subhead,
+#cat1-subhead,
+#cat2-subhead,
+#cat3-subhead {
     justify-self: center;
     color: #f45656;
     font-size: 150%;
@@ -193,7 +199,8 @@ header {
 #beige-matskal:hover,
 #dog:hover,
 #cat:hover,
-#all:hover {
+#all:hover,
+#kattskal:hover {
     transform: scale(1.1);
 }
 
@@ -202,7 +209,10 @@ header {
 #product3-head:hover,
 #product4-head:hover,
 #dog1-head:hover,
-#dog2-head:hover {
+#dog2-head:hover,
+#cat1-head:hover,
+#cat2-head:hover,
+#cat3-head:hover {
     text-decoration: underline;
     color: #f45656;
 }
@@ -210,7 +220,8 @@ header {
 #koppel,
 #kattbadd,
 #leksak,
-#beige-matskal {
+#beige-matskal,
+#kattskal {
     border: 4px solid #f45656;
 }
 
@@ -259,7 +270,8 @@ header {
 
 #dog-products,
 #leash-head,
-#beigebowl-head {
+#beigebowl-head,
+#cat-products {
     display: grid;
     text-align: center;
     color: #f45656;
@@ -275,14 +287,27 @@ header {
     margin-top: 4%;
 }
 
-#dog-product1 {
+#all-catproducts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4%;
+}
+
+#dog-product1,
+#cat-product1 {
     display: grid;
     justify-self: right;
     margin-right: 8%;
 }
 
+#cat-product2 {
+    display: grid;
+    justify-self: center;
+}
 
-#dog-product2 {
+
+#dog-product2,
+#cat-product3 {
     display: grid;
     justify-self: left;
     margin-left: 8%;
