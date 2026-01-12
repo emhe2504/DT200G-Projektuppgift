@@ -273,7 +273,8 @@ header {
 #beigebowl-head,
 #cat-products,
 #catbowl-head,
-#catbed-head {
+#catbed-head,
+#cattoy-head {
     display: grid;
     text-align: center;
     color: #f45656;
@@ -285,7 +286,8 @@ header {
 #leash-pictures,
 #beigebowl-pictures,
 #catbowl-pictures,
-#catbed-pictures {
+#catbed-pictures,
+#cattoy-pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 4%;
@@ -320,7 +322,8 @@ header {
 #koppelbild1,
 #matskal1,
 #kattskal1,
-#kattbadd1 {
+#kattbadd1,
+#leksak1 {
     display: grid;
     border: 4px solid #f45656;
     justify-self: right;
@@ -331,7 +334,8 @@ header {
 #koppelbild2,
 #matskal2,
 #kattskal2,
-#kattbadd2 {
+#kattbadd2,
+#leksak2 {
     display: grid;
     border: 4px solid #f45656;
     justify-self: left;
@@ -341,7 +345,8 @@ header {
 #dogpictures-big,
 #beigebowl-big,
 #catbowl-big,
-#catbed-big {
+#catbed-big,
+#cattoy-big {
     display: grid;
     justify-self: center;
     color: black;
@@ -357,7 +362,8 @@ header {
 #close-pictures,
 #close-pictures2,
 #close-pictures3,
-#close-pictures4 {
+#close-pictures4,
+#close-pictures5 {
     display: grid;
     justify-self: center;
     color: black;
@@ -372,7 +378,8 @@ header {
 #dogpictures-zoom,
 #beigebowl-zoom,
 #catbowl-zoom,
-#catbed-zoom {
+#catbed-zoom,
+#cattoy-zoom {
     position: fixed;
     top: 50%;
     left: 50%;

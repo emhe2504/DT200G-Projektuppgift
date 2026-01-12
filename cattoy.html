@@ -43,10 +43,71 @@
             <h1 id="hero-head" class="jomhuria">Små vänner</h1>
             <h2 id="hero-subhead" class="roboto-bold">Kvalitativa djurtillbehör för dina små vänner</h2>
             </div>
-            <h2 class="roboto-bold" id="start-head">Populärt just nu</h2>
+            <section id="section1-categories">
+                <h2 class="roboto-bold" id="categories-head">Produktkategorier:</h2>
+                <ul id="categories">
+                    <li class="roboto-bold" id="dog-cate"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
+                    </li>
+                    <li class="roboto-bold" id="cat-cate"><a href="cat-products.html" id="cat-link">&#128049 Katt</a>
+                    </li>
+                    <li class="roboto-bold" id="all-cate"><a href="all-products.html" id="all-link">Visa alla
+                            produkter</a></li>
+                </ul>
+            </section>
+            <section id="cattoy-section">
+                <h2 class="roboto-bold" id="cattoy-head">Kattleksak Prassel</h2>
+                <div id="cattoy-pictures">
+                    <picture>
+                        <source srcset="images/leksak.webp" type="image/webp">
+                        <img src="images/leksak.jpg" id="leksak1" alt="Flerfärgad prasslig kattleksak" width="300"
+                            height="300" loading="lazy">
+                    </picture>
+                    <picture>
+                        <source srcset="images/leksak2.webp" type="image/webp">
+                        <img src="images/leksak2.jpg" id="leksak2" alt="Flerfärgad prasslig kattleksak" width="300"
+                            height="300" loading="lazy">
+                    </picture>
+                </div>
+                <input type="button" id="cattoy-big" value="Se bilderna större">
+            </section>
+            <article id="cattoy-zoom" class="hidden">
+                <h2 class="roboto-bold" id="cattoy-head2">Kattbädd Molly</h2>
+                <picture>
+                        <source srcset="images/leksak.webp" type="image/webp">
+                        <img src="images/leksak.jpg" id="leksak-stor" alt="Flerfärgad prasslig kattleksak" width="600"
+                            height="600" loading="lazy">
+                    </picture>
+                    <br><br>
+                    <picture>
+                        <source srcset="images/leksak2.webp" type="image/webp">
+                        <img src="images/leksak2.jpg" id="leksak-stor" alt="Flerfärgad prasslig kattleksak" width="600"
+                            height="600" loading="lazy">
+                    </picture>
+                    <input type="button" id="close-pictures5" value="Tillbaka">
+            </article>
+            <article id="product-information">
+                <h3 class="roboto-bold" id="info-head">Pris: 39kr</h3>
+                <div id="information">
+                    <h3 class="roboto-bold" id="info-head2">Information:</h3>
+                    <p class="roboto" id="info-text">
+                        Flerfärgad leksak för katt. Består av konstgjorda fjädrar och prasslig 
+                        folie på en svart plastpinne. Perfekt leksak för dig som vill leka med din katt.
+                        Den prassliga folien gör leksaken extra rolig då den prasslar vid lek.
+                        Mått: 32cm. 
+                    </p>
+                </div>
+                <input type="button" id="shoppingbasket" value="Lägg i varukorg">
+            </article>
         </main>
-        <footer></footer>
+        <footer>
+            <section id="footer-section">
+                <h3 id="footer-head" class="jomhuria">© Små vänner AB</h4>
+                <p id="footer-subhead" class="jomhuria">2025</p>
+            </section>
+        </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
