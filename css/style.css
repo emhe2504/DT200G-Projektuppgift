@@ -401,6 +401,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #f13737;
+    border: 10px solid white;
     z-index: 20;
 }
 
@@ -439,11 +440,23 @@ header {
     text-align: center;
     font-size: 180%;
     color: white;
-    margin-bottom: 0;
+    margin-bottom: 8%;
     margin-top: 15%;
 }
 
-#keepShopping,
+#keepShopping {
+    display: grid;
+    justify-self: center;
+    font-size: 150%;
+    width: 40%;
+    height: 55px;
+    border: 3px solid #f5eff1;
+    background-color: #ef4a5d;
+    color: #f8f1f4;
+    margin-bottom: 5%;
+}
+
+
 #toBasket {
     display: grid;
     justify-self: center;
