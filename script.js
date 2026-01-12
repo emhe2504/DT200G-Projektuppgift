@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             dogPicButton.addEventListener("click", () => {
 
-            dogPicArticle.classList.remove("hidden");
-        });
+                dogPicArticle.classList.remove("hidden");
+            });
 
         };
     };
 
-        const backButton = document.getElementById("close-pictures");
+    const backButton = document.getElementById("close-pictures");
 
-        if (backButton) {
+    if (backButton) {
         backButton.addEventListener("click", () => {
 
             window.location.href = "leash.html";
@@ -35,15 +35,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             beigeBowlButton.addEventListener("click", () => {
 
-            beigeBowlArticle.classList.remove("hidden");
-        });
+                beigeBowlArticle.classList.remove("hidden");
+            });
 
         };
     };
 
-        const backButtonTwo = document.getElementById("close-pictures2");
+    const backButtonTwo = document.getElementById("close-pictures2");
 
-        if (backButtonTwo) {
+    if (backButtonTwo) {
         backButtonTwo.addEventListener("click", () => {
 
             window.location.href = "beigebowl.html";
@@ -59,15 +59,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             catBowlButton.addEventListener("click", () => {
 
-            catBowlArticle.classList.remove("hidden");
-        });
+                catBowlArticle.classList.remove("hidden");
+            });
 
         };
     };
 
-        const backButtonThree = document.getElementById("close-pictures3");
+    const backButtonThree = document.getElementById("close-pictures3");
 
-        if (backButtonThree) {
+    if (backButtonThree) {
         backButtonThree.addEventListener("click", () => {
 
             window.location.href = "catbowl.html";
@@ -83,15 +83,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             catBedButton.addEventListener("click", () => {
 
-            catBedArticle.classList.remove("hidden");
-        });
+                catBedArticle.classList.remove("hidden");
+            });
 
         };
     };
 
-        const backButtonFour = document.getElementById("close-pictures4");
+    const backButtonFour = document.getElementById("close-pictures4");
 
-        if (backButtonFour) {
+    if (backButtonFour) {
         backButtonFour.addEventListener("click", () => {
 
             window.location.href = "catbed.html";
@@ -107,18 +107,48 @@ document.addEventListener("DOMContentLoaded", () => {
 
             catToyButton.addEventListener("click", () => {
 
-            catToyArticle.classList.remove("hidden");
-        });
+                catToyArticle.classList.remove("hidden");
+            });
 
         };
     };
 
-        const backButtonFive = document.getElementById("close-pictures5");
+    const backButtonFive = document.getElementById("close-pictures5");
 
-        if (backButtonFive) {
+    if (backButtonFive) {
         backButtonFive.addEventListener("click", () => {
 
             window.location.href = "cattoy.html";
+        });
+    }
+
+    const inBasketArticle = document.getElementById("inBasket");
+    const inBasketButton = document.getElementById("shoppingbasket");
+
+    if (inBasketButton) {
+
+        if (inBasketArticle.classList.contains("hidden")) {
+
+            inBasketButton.addEventListener("click", () => {
+
+                inBasketArticle.classList.remove("hidden");
+            });
+
+        };
+    };
+
+    const keepShopping = document.getElementById("keepShopping");
+    const toBasket = document.getElementById("toBasket");
+
+    if (keepShopping || toBasket) {
+        keepShopping.addEventListener("click", () => {
+
+            inBasketArticle.classList.add("hidden");
+        });
+
+        toBasket.addEventListener("click", () => {
+
+            window.location.href = "shoppingbasket.html";
         });
     }
 });
