@@ -49,5 +49,29 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "beigebowl.html";
         });
     }
+
+    const catBowlArticle = document.getElementById("catbowl-zoom");
+    const catBowlButton = document.getElementById("catbowl-big");
+
+    if (catBowlButton) {
+
+        if (catBowlArticle.classList.contains("hidden")) {
+
+            catBowlButton.addEventListener("click", () => {
+
+            catBowlArticle.classList.remove("hidden");
+        });
+
+        };
+    };
+
+        const backButtonThree = document.getElementById("close-pictures3");
+
+        if (backButtonThree) {
+        backButtonThree.addEventListener("click", () => {
+
+            window.location.href = "catbowl.html";
+        });
+    }
 });
 
