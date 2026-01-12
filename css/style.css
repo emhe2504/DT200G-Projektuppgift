@@ -273,10 +273,17 @@ header {
     margin-top: 4%;
 }
 
-#dog-product1,
+#dog-product1 {
+    display: grid;
+    justify-self: right;
+    margin-right: 8%;
+}
+
+
 #dog-product2 {
     display: grid;
-    text-align: center;
+    justify-self: left;
+    margin-left: 8%;
 }
 
 #koppelbild1 {
