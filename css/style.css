@@ -187,7 +187,9 @@ header {
 #dog2-subhead,
 #cat1-subhead,
 #cat2-subhead,
-#cat3-subhead {
+#cat3-subhead,
+#firstItem,
+#Item-price1 {
     justify-self: center;
     color: #f45656;
     font-size: 150%;
@@ -274,7 +276,8 @@ header {
 #cat-products,
 #catbowl-head,
 #catbed-head,
-#cattoy-head {
+#cattoy-head,
+#yourBasket {
     display: grid;
     text-align: center;
     color: #f45656;
@@ -467,6 +470,17 @@ header {
     border: 3px solid #f5eff1;
     background-color: #ef4a5d;
     color: #f8f1f4;
+}
+
+#basket-item1 {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #f45656;
+    width: 30%;
+    margin-top: 4%;
+    padding: 3%;
 }
 
 footer {
