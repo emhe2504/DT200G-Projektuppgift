@@ -382,8 +382,30 @@ header {
 #leash-video {
     display: grid;
     margin-top: 6%;
-    margin-bottom: 6%;
     justify-self: center;
+}
+
+#product-information {
+    display: grid;
+    max-width: 65ch;
+    text-align: start;
+    justify-self: center;
+    margin-top: 4%;
+    letter-spacing: 1px;
+    font-size: 130%;
+    color: #f45656;
+    font-weight: bold;
+}
+
+#shoppingbasket {
+    display: grid;
+    border: 3px solid white;
+    background-color: #f45656;
+    color: white;
+    font-size: 100%;
+    padding: 2%;
+    margin-top: 3%;
+    width: 35%;
 }
 
 footer {
