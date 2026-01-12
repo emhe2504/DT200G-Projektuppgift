@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             dogPicButton.addEventListener("click", () => {
 
-            const dogPicArticle = document.getElementById("dogpictures-zoom")
             dogPicArticle.classList.remove("hidden");
         });
 
@@ -24,6 +23,30 @@ document.addEventListener("DOMContentLoaded", () => {
         backButton.addEventListener("click", () => {
 
             window.location.href = "leash.html";
+        });
+    }
+
+    const beigeBowlArticle = document.getElementById("beigebowl-zoom");
+    const beigeBowlButton = document.getElementById("beigebowl-big");
+
+    if (beigeBowlButton) {
+
+        if (beigeBowlArticle.classList.contains("hidden")) {
+
+            beigeBowlButton.addEventListener("click", () => {
+
+            beigeBowlArticle.classList.remove("hidden");
+        });
+
+        };
+    };
+
+        const backButtonTwo = document.getElementById("close-pictures2");
+
+        if (backButtonTwo) {
+        backButtonTwo.addEventListener("click", () => {
+
+            window.location.href = "beigebowl.html";
         });
     }
 });

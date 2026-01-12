@@ -319,7 +319,8 @@ header {
 }
 
 
-#close-pictures {
+#close-pictures,
+#close-pictures2 {
     display: grid;
     justify-self: center;
     color: black;
