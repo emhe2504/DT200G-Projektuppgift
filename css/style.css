@@ -95,9 +95,16 @@ header {
 #start-section1,
 #start-section2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 65%;
     margin-top: 5%;
     margin-bottom: 10%;
+}
+
+#products1,
+#products2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
 }
 
 #start-head {
@@ -560,4 +567,277 @@ footer {
 #footer-subhead {
     font-size: 200%;
     margin-top: 0;
+}
+
+@media only screen and (max-width: 1720px) {
+
+    #menu,
+    #social-media {
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+
+    header {
+        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    }
+
+    #menu-head,
+    #socials-head {
+        font-size: 170%;
+    }
+
+    #menu-list,
+    #socials-list {
+        font-size: 120%;
+    }
+
+    #insta-div,
+    #FB-div {
+        grid-template-columns: 1fr 70%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    header {
+        grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    }
+
+    #hero-text {
+        left: 40%;
+        top: 45%;
+    }
+
+    #hero-head {
+        font-size: 520%;
+    }
+
+    #hero-subhead {
+        font-size: 120%;
+    }
+
+    #start-section1 {
+        grid-template-columns: none;
+    }
+
+
+    #start-section2 {
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        width: 40%;
+        justify-self: center;
+        margin-left: 0;
+        padding-top: 1%;
+    }
+
+
+    #social-media {
+        width: 40%;
+        margin-left: 0;
+        padding-top: 1%;
+        order: 2;
+        align-self: center;
+        margin-top: 10%;
+    }
+
+    #menu-list,
+    #socials-list {
+        font-size: 135%;
+    }
+
+    #products1 {
+        margin-top: 10%;
+    }
+
+
+    #products2 {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    header {
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    }
+
+    #header-head {
+        font-size: 350%;
+        align-self: center;
+        justify-self: left;
+    }
+
+    #logotyp {
+        width: 150px;
+        height: 150px;
+        margin-top: 3%;
+    }
+
+    #login {
+        font-size: 120%;
+    }
+
+    #hero-text {
+        left: 35%;
+        top: 25%;
+    }
+
+    #hero-head {
+        font-size: 450%;
+    }
+
+    #hero-subhead {
+        font-size: 120%;
+    }
+
+    #start-head {
+        font-size: 200%;
+    }
+
+    #menu,
+    #social-media {
+        width: 55%;
+    }
+
+    #menu-head,
+    #socials-head {
+        font-size: 155%;
+    }
+
+    #menu-list,
+    #socials-list {
+        font-size: 125%;
+    }
+
+    #products1,
+    #products2 {
+        grid-template-columns: none;
+        margin-top: 0;
+    }
+
+    #product1 {
+        margin-top: 10%;
+    }
+
+    #product2,
+    #product4 {
+        margin-top: 6%;
+    }
+
+    #product1-head,
+    #product2-head,
+    #product3-head,
+    #product4-head {
+        font-size: 150%;
+    }
+
+    #product1-subhead,
+    #product2-subhead,
+    #product3-subhead,
+    #product4-subhead {
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    #header-head {
+        font-size: 300%;
+    }
+
+    #basket-bild,
+    #sok-bild {
+        width: 50px;
+        height: 50px;
+    }
+
+    #hero-text {
+        left: 25%;
+        top: 25%;
+    }
+
+    #hero-head {
+        font-size: 400%;
+    }
+
+    #hero-subhead {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+   #header-head {
+        font-size: 220%;
+    }
+
+    #logotyp {
+        width: 100px;
+        height: 100px;
+    }
+
+     #login {
+        font-size: 90%;
+    }
+
+    #basket-bild,
+    #sok-bild {
+        width: 40px;
+        height: 40px;
+    }
+
+    #hero-text {
+        left: 17%;
+        top: 15%;
+    }
+
+    #hero-head {
+        font-size: 300%;
+    }
+
+    #hero-subhead {
+        font-size: 100%;
+        font-weight: normal;
+    }
+
+    #start-head {
+        font-size: 150%;
+    }
+
+    #menu,
+    #social-media {
+        width: 70%;
+    }
+
+    #menu-head,
+    #socials-head {
+        font-size: 130%;
+    }
+
+    #menu-list,
+    #socials-list {
+        font-size: 100%;
+    }
+
+    #product1-head,
+    #product2-head,
+    #product3-head,
+    #product4-head {
+        font-size: 120%;
+    }
+
+    #product1-subhead,
+    #product2-subhead,
+    #product3-subhead,
+    #product4-subhead {
+        font-size: 100%;
+        font-weight: normal;
+    }
+
 }
