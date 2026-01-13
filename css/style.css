@@ -812,7 +812,7 @@ footer {
 
     #menu,
     #social-media {
-        width: 70%;
+        width: 75%;
     }
 
     #menu-head,
@@ -840,4 +840,29 @@ footer {
         font-weight: normal;
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+
+    #logotyp {
+        width: 75px;
+        height: 75px;
+    }
+    
+    #header-head {
+        font-size: 180%;
+    }
+    
+    #hero-text {
+        left: 28%;
+        top: 15%;
+    }
+
+    #hero-head {
+        font-size: 360%;
+    }
+
+    #hero-subhead {
+        display: none;
+    }
 }
