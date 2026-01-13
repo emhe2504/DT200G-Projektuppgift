@@ -487,6 +487,25 @@ header {
     padding: 3%;
 }
 
+#basket-price,
+#basket-keepShopping,
+#basket-toCheckout {
+    display: grid;
+    margin-top: 4%;
+    margin-left: 10%;
+    color: #d21d1d;
+}
+
+#toCheckout,
+#moreShopping {
+    width: 20%;
+    color: white;
+    background-color: #f45656;
+    border: 3px solid white;
+    font-size: 120%;
+    line-height: 2em;
+}
+
 #login-info {
     display: grid;
 }
