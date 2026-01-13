@@ -487,6 +487,38 @@ header {
     padding: 3%;
 }
 
+#login-info {
+    display: grid;
+}
+
+#login-div {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#login-text1,
+#login-text2,
+#login-text3,
+#login-text4 {
+    max-width: 58ch;
+    justify-self: center;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 110%;
+    font-weight: 400;
+    color: #d21d1d;
+}
+
+#djurBilder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    align-self: center;
+    gap: 3%;
+}
+
 footer {
     display: grid;
     background-color: #f45656;
