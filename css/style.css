@@ -407,7 +407,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #b6091b;
+    background: #cc1b2d;
     border: 10px solid white;
     z-index: 20;
 }
@@ -458,7 +458,7 @@ header {
     width: 40%;
     height: 55px;
     border: 3px solid #f5eff1;
-    background-color: #b6091b;
+    background-color: #cc1b2d;
     color: #f8f1f4;
     margin-bottom: 5%;
 }
@@ -471,7 +471,7 @@ header {
     width: 40%;
     height: 55px;
     border: 3px solid #f5eff1;
-    background-color: #b6091b;
+    background-color: #cc1b2d;
     color: #f8f1f4;
 }
 
@@ -494,6 +494,7 @@ header {
     margin-top: 4%;
     margin-left: 10%;
     color: white;
+    font-size: 120%;
 }
 
 #toCheckout,
@@ -525,9 +526,10 @@ header {
     justify-self: center;
     line-height: 1.5em;
     letter-spacing: 1px;
-    font-size: 110%;
-    font-weight: 400;
+    font-size: 120%;
+    font-weight: 500;
     color: white;
+    margin-left: 3%;
 }
 
 #djurBilder {
