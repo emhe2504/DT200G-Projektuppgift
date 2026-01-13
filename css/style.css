@@ -852,6 +852,12 @@ footer {
     #header-head {
         font-size: 180%;
     }
+
+    #basket-bild,
+    #sok-bild {
+        width: 30px;
+        height: 30px;
+    }
     
     #hero-text {
         left: 27%;
