@@ -1,7 +1,7 @@
 #container {
     width: 100%;
     height: 100%;
-    background-color: #fb9c9c;
+    background-color: #f66161;
 }
 
 .jomhuria {
@@ -28,7 +28,7 @@
 header {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
-    background-color: #f58585;
+    background-color: #fb6161;
 }
 
 #logo {
@@ -72,7 +72,7 @@ header {
 #hero-text {
     position: absolute;
     z-index: 10;
-    background-color: rgba(251, 156, 156, 0.7);
+    background-color: rgba(249, 105, 105, 0.7);
     border-radius: 10%;
     left: 50%;
     top: 45%;
@@ -103,7 +103,7 @@ header {
 #start-head {
     justify-self: center;
     padding: 1%;
-    color: #f45656;
+    color: white;
     font-size: 250%;
     margin-top: 4%;
 }
@@ -113,7 +113,7 @@ header {
     margin-left: 10%;
     padding-left: 5%;
     padding-top: 5%;
-    border: 8px solid #f45656;
+    border: 8px solid #b6091b;
     width: 55%;
 }
 
@@ -176,7 +176,7 @@ header {
 #product2-link,
 #product3-link,
 #product4-link {
-    color: #f45656;
+    color: white;
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ header {
 #Item-price1,
 #Item-price2 {
     justify-self: center;
-    color: #f45656;
+    color: white;
     font-size: 150%;
 }
 
@@ -219,7 +219,7 @@ header {
 #cat2-head:hover,
 #cat3-head:hover {
     text-decoration: underline;
-    color: #f45656;
+    color: white;
 }
 
 #koppel,
@@ -227,7 +227,7 @@ header {
 #leksak,
 #beige-matskal,
 #kattskal {
-    border: 4px solid #f45656;
+    border: 4px solid #b6091b;
 }
 
 #insta-div,
@@ -283,7 +283,7 @@ header {
 #yourBasket {
     display: grid;
     text-align: center;
-    color: #f45656;
+    color: white;
     font-size: 250%;
     margin-top: 4%;
 }
@@ -331,7 +331,7 @@ header {
 #kattbadd1,
 #leksak1 {
     display: grid;
-    border: 4px solid #f45656;
+    border: 4px solid #b6091b;
     justify-self: right;
     margin-right: 4%;
 }
@@ -343,7 +343,7 @@ header {
 #kattbadd2,
 #leksak2 {
     display: grid;
-    border: 4px solid #f45656;
+    border: 4px solid #b6091b;
     justify-self: left;
     margin-left: 4%;
 }
@@ -357,7 +357,7 @@ header {
     justify-self: center;
     color: white;
     border: 3px solid white;
-    background-color: #f45656;
+    background-color: #b6091b;
     margin-top: 4%;
     padding: 1%;
     font-size: 120%;
@@ -374,7 +374,7 @@ header {
     justify-self: center;
     color: white;
     border: none;
-    background-color: #f45656;
+    background-color: #b6091b;
     margin-top: 4%;
     padding: 2%;
     font-size: 120%;
@@ -407,7 +407,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #f13737;
+    background: #b6091b;
     border: 10px solid white;
     z-index: 20;
 }
@@ -426,14 +426,14 @@ header {
     margin-top: 4%;
     letter-spacing: 1px;
     font-size: 130%;
-    color: #f45656;
+    color: white;
     font-weight: bold;
 }
 
 #shoppingbasket {
     display: grid;
     border: 3px solid white;
-    background-color: #f45656;
+    background-color: #b6091b;
     color: white;
     font-size: 100%;
     padding: 2%;
@@ -458,7 +458,7 @@ header {
     width: 40%;
     height: 55px;
     border: 3px solid #f5eff1;
-    background-color: #ef4a5d;
+    background-color: #b6091b;
     color: #f8f1f4;
     margin-bottom: 5%;
 }
@@ -471,7 +471,7 @@ header {
     width: 40%;
     height: 55px;
     border: 3px solid #f5eff1;
-    background-color: #ef4a5d;
+    background-color: #b6091b;
     color: #f8f1f4;
 }
 
@@ -481,7 +481,7 @@ header {
     justify-self: center;
     justify-content: center;
     text-align: center;
-    border: 5px solid #f45656;
+    border: 5px solid #b6091b;
     width: 30%;
     margin-top: 4%;
     padding: 3%;
@@ -493,14 +493,14 @@ header {
     display: grid;
     margin-top: 4%;
     margin-left: 10%;
-    color: #d21d1d;
+    color: white;
 }
 
 #toCheckout,
 #moreShopping {
     width: 20%;
     color: white;
-    background-color: #f45656;
+    background-color: #b6091b;
     border: 3px solid white;
     font-size: 120%;
     line-height: 2em;
@@ -527,7 +527,7 @@ header {
     letter-spacing: 1px;
     font-size: 110%;
     font-weight: 400;
-    color: #d21d1d;
+    color: white;
 }
 
 #djurBilder {
@@ -540,7 +540,7 @@ header {
 
 footer {
     display: grid;
-    background-color: #f45656;
+    background-color: #ff3d3d;
     margin-top: 5%;
 }
 
