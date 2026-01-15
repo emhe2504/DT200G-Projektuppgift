@@ -655,7 +655,8 @@ footer {
 
 @media only screen and (max-width: 1450px) {
 
-    header {
+    header,
+    #just-header {
         grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
     }
 
@@ -677,7 +678,8 @@ footer {
 
 @media only screen and (max-width: 1300px) {
 
-    header {
+    header,
+    #just-header {
         grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
     }
 
@@ -739,7 +741,8 @@ footer {
 
 @media only screen and (max-width: 980px) {
 
-    header {
+    header,
+    #just-header {
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     }
 
@@ -920,8 +923,13 @@ footer {
 
 @media only screen and (max-width: 500px) {
 
-    header {
-        grid-template-columns: 1fr 2fr 1fr 1fr 2fr;
+    header,
+    #just-header {
+        grid-template-columns: 1fr 2fr 1fr 0.5fr 1.5fr;
+    }
+
+    #sok {
+        margin-left: 50%;
     }
 
     #login {

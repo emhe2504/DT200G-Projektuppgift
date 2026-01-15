@@ -2,6 +2,29 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    initPage();
+});
+
+
+function initPage() {
+
+    bigDogPic();
+    goBack();
+    bigBeigePic();
+    goBackTwo();
+    bigBowlPic();
+    goBackThree();
+    bigBedPic();
+    goBackFour();
+    bigToyPic();
+    goBackFive();
+    itemInBasket();
+    basketOptions();
+    
+}
+
+function bigDogPic() {
+
     const dogPicArticle = document.getElementById("dogpictures-zoom");
     const dogPicButton = document.getElementById("dogpictures-big");
 
@@ -16,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function goBack() {
 
     const backButton = document.getElementById("close-pictures");
 
@@ -25,6 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "leash.html";
         });
     }
+};
+
+function bigBeigePic() {
 
     const beigeBowlArticle = document.getElementById("beigebowl-zoom");
     const beigeBowlButton = document.getElementById("beigebowl-big");
@@ -40,6 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function goBackTwo() {
 
     const backButtonTwo = document.getElementById("close-pictures2");
 
@@ -49,6 +81,9 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "beigebowl.html";
         });
     }
+};
+
+function bigBowlPic() {
 
     const catBowlArticle = document.getElementById("catbowl-zoom");
     const catBowlButton = document.getElementById("catbowl-big");
@@ -64,6 +99,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function goBackThree() {
 
     const backButtonThree = document.getElementById("close-pictures3");
 
@@ -73,6 +111,9 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "catbowl.html";
         });
     }
+};
+
+function bigBedPic() {
 
     const catBedArticle = document.getElementById("catbed-zoom");
     const catBedButton = document.getElementById("catbed-big");
@@ -88,6 +129,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function goBackFour() {
 
     const backButtonFour = document.getElementById("close-pictures4");
 
@@ -97,6 +141,9 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "catbed.html";
         });
     }
+};
+
+function bigToyPic() {
 
     const catToyArticle = document.getElementById("cattoy-zoom");
     const catToyButton = document.getElementById("cattoy-big");
@@ -112,6 +159,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function goBackFive() {
 
     const backButtonFive = document.getElementById("close-pictures5");
 
@@ -121,6 +171,9 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "cattoy.html";
         });
     }
+};
+
+function itemInBasket() {
 
     const inBasketArticle = document.getElementById("inBasket");
     const inBasketButton = document.getElementById("shoppingbasket");
@@ -136,6 +189,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         };
     };
+};
+
+function basketOptions() {
 
     const keepShopping = document.getElementById("keepShopping");
     const toBasket = document.getElementById("toBasket");
@@ -151,5 +207,4 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "shoppingbasket.html";
         });
     }
-});
-
+};
