@@ -44,8 +44,12 @@ header {
 }
 
 #header-head {
-    color: white;
     font-size: 550%;
+}
+
+#header-link {
+    color: white;
+    text-decoration: none;
 }
 
 #basket {
