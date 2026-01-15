@@ -16,7 +16,7 @@
 
 <body>
     <div id="container">
-        <header>
+        <header id="just-header">
             <a id="logo" href="index.html">
                 <picture>
                     <source srcset="images/logo.svg" type="image/svg">
@@ -25,68 +25,61 @@
             </a>
             <h1 id="header-head" class="jomhuria">Små Vänner</h1>
             <a href="shoppingbasket.html" id="basket">
-            <picture>
-                <source srcset="images/basket.svg" type="image/svg">
-                <img src="images/basket.png" alt="Varukorg" width="80" height="80" loading="lazy">
-            </picture>
+                <picture>
+                    <source srcset="images/basket.svg" type="image/svg">
+                    <img src="images/basket.png" alt="Varukorg" width="80" height="80" loading="lazy">
+                </picture>
             </a>
             <picture id="sok">
                 <source srcset="images/sok.svg" type="image/svg">
                 <img src="images/sok.png" alt="Sökfunktion" width="80" height="80" loading="lazy">
             </picture>
             <a href="mypages.html" id="login">
-            <p class="roboto-bold">Logga in</p>
+                <p class="roboto-bold">Logga in</p>
             </a>
         </header>
         <main>
-            <picture id="hero">
-                <source srcset="images/Lola.webp" type="image/webp">
-                <img id="hero-pic" src="images/Lola.jpg" alt="Ihopkrupen katt som sover" loading="lazy">
-            </picture>
-            <div id="hero-text">
-            <h1 id="hero-head" class="jomhuria">Små vänner</h1>
-            <h2 id="hero-subhead" class="roboto-bold">Kvalitativa djurtillbehör för dina små vänner</h2>
-            </div>
             <section id="section1-categories">
-            <h3 class="roboto-bold" id="categories-head">Produktkategorier:</h3>
-            <ul id="categories">
-                <li class="roboto-bold" id="dog-cate"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
-                </li>
-                <li class="roboto-bold" id="cat-cate"><a href="cat-products.html" id="cat-link">&#128049 Katt</a>
-                </li>
-                <li class="roboto-bold" id="all-cate"><a href="all-products.html" id="all-link">Visa alla
-                        produkter</a></li>
-            </ul>
+                <h3 class="roboto-bold" id="categories-head">Produktkategorier:</h3>
+                <ul id="categories">
+                    <li class="roboto-bold" id="dog-cate"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
+                    </li>
+                    <li class="roboto-bold" id="cat-cate"><a href="cat-products.html" id="cat-link">&#128049 Katt</a>
+                    </li>
+                    <li class="roboto-bold" id="all-cate"><a href="all-products.html" id="all-link">Visa alla
+                            produkter</a></li>
+                </ul>
             </section>
             <h2 class="roboto-bold" id="yourBasket">Din varukorg</h2>
             <article id="basket-item1">
                 <h3 class="roboto-bold" id="firstItem">Kattleksak, Prassel</h3>
                 <p class="roboto-bold" id="Item-price1">39kr</p>
                 <picture>
-                        <source srcset="images/leksak.webp" type="image/webp">
-                        <img src="images/leksak.jpg" id="leksakS" alt="Flerfärgad prasslig kattleksak" width="300"
-                            height="300" loading="lazy">
-                    </picture>
+                    <source srcset="images/leksak.webp" type="image/webp">
+                    <img src="images/leksak.jpg" id="leksakS" alt="Flerfärgad prasslig kattleksak" width="300"
+                        height="300" loading="lazy">
+                </picture>
             </article>
             <article id="basket-item2">
                 <h3 class="roboto-bold" id="secondItem">Matskål, Pelle</h3>
                 <p class="roboto-bold" id="Item-price2">69kr</p>
                 <picture>
-                        <source srcset="images/kattskal.webp" type="image/webp">
-                        <img src="images/kattskal.jpg" id="kattskalS" alt="Flerfärgad prasslig kattleksak" width="300"
-                            height="300" loading="lazy">
-                    </picture>
+                    <source srcset="images/kattskal.webp" type="image/webp">
+                    <img src="images/kattskal.jpg" id="kattskalS" alt="Flerfärgad prasslig kattleksak" width="300"
+                        height="300" loading="lazy">
+                </picture>
             </article>
             <article id="basket-price">
                 <h3 class="roboto-bold">Totalsumma: 127:-</h3>
                 <div>
-                <p class="roboto-bold">Summa produkter: 108:-</p>
-                <p class="roboto-bold">Frakt: 19:-</p>
-                
+                    <p class="roboto-bold">Summa produkter: 108:-</p>
+                    <p class="roboto-bold">Frakt: 19:-</p>
+
             </article>
             <section id="basket-keepShopping">
                 <h3 class="roboto-bold">Vill du köpa något mer?</h3>
-                <input type="button" id="moreShopping" value="Fortsätt handla" onclick="window.location.href='index.html'">
+                <input type="button" id="moreShopping" value="Fortsätt handla"
+                    onclick="window.location.href='index.html'">
             </section>
             <section id="basket-toCheckout">
                 <h3 class="roboto-bold">Redo att betala?</h3>
@@ -96,7 +89,7 @@
         <footer>
             <section id="footer-section">
                 <h3 id="footer-head" class="jomhuria">© Små vänner AB</h4>
-                <p id="footer-subhead" class="jomhuria">2025</p>
+                    <p id="footer-subhead" class="jomhuria">2025</p>
             </section>
         </footer>
     </div>
