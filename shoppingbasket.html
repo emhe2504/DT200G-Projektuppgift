@@ -39,51 +39,70 @@
             </a>
         </header>
         <main>
-            <section id="section1-categories">
-                <h3 class="roboto-bold" id="categories-head">Produktkategorier:</h3>
-                <ul id="categories">
-                    <li class="roboto-bold" id="dog-cate"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
-                    </li>
-                    <li class="roboto-bold" id="cat-cate"><a href="cat-products.html" id="cat-link">&#128049 Katt</a>
-                    </li>
-                    <li class="roboto-bold" id="all-cate"><a href="all-products.html" id="all-link">Visa alla
-                            produkter</a></li>
-                </ul>
-            </section>
             <h2 class="roboto-bold" id="yourBasket">Din varukorg</h2>
-            <article id="basket-item1">
-                <h3 class="roboto-bold" id="firstItem">Kattleksak, Prassel</h3>
-                <p class="roboto-bold" id="Item-price1">39kr</p>
-                <picture>
-                    <source srcset="images/leksak.webp" type="image/webp">
-                    <img src="images/leksak.jpg" id="leksakS" alt="Flerfärgad prasslig kattleksak" width="300"
-                        height="300" loading="lazy">
-                </picture>
+            <article id="basket-items">
+                <ul id="basket-1">
+                    <li id="ba-1">
+                        <picture>
+                            <source srcset="images/leksak.webp" type="image/webp">
+                            <img src="images/leksak.jpg" id="leksakS" alt="Flerfärgad prasslig kattleksak" width="100"
+                                height="100" loading="lazy">
+                        </picture>
+                    </li>
+                    <li id="ba-2">
+                        <h3 class="roboto-bold" id="firstItem">Kattleksak, Prassel</h3>
+                    </li>
+                    <li id="ba-3">
+                        <p class="roboto-bold" id="Item-price1">39kr</p>
+                    </li>
+                    <li id="ba-4">
+                        <picture>
+                            <source srcset="images/papperskorg.svg" type="image/svg">
+                            <img src="images/papperskorg.png" id="papperskorg1" alt="Papperskorg ikon" width="45"
+                                height="45" loading="lazy">
+                        </picture>
+                    </li>
+                </ul>
+                <br><br>
+                <ul id="basket-2">
+                    <li id="ba-5">
+                        <picture>
+                            <source srcset="images/kattskal.webp" type="image/webp">
+                            <img src="images/kattskal.jpg" id="kattskalS" alt="Flerfärgad prasslig kattleksak"
+                                width="100" height="100" loading="lazy">
+                        </picture>
+                    </li>
+                    <li id="ba-6">
+                        <h3 class="roboto-bold" id="secondItem">Matskål, Pelle</h3>
+                    </li>
+                    <li id="ba-7">
+                        <p class="roboto-bold" id="Item-price2">69kr</p>
+                    </li>
+                    <li id="ba-8">
+                        <picture>
+                            <source srcset="images/papperskorg.svg" type="image/svg">
+                            <img src="images/papperskorg.png" id="papperskorg2" alt="Papperskorg ikon" width="45"
+                                height="45" loading="lazy">
+                        </picture>
+                    </li>
+                </ul>
             </article>
-            <article id="basket-item2">
-                <h3 class="roboto-bold" id="secondItem">Matskål, Pelle</h3>
-                <p class="roboto-bold" id="Item-price2">69kr</p>
-                <picture>
-                    <source srcset="images/kattskal.webp" type="image/webp">
-                    <img src="images/kattskal.jpg" id="kattskalS" alt="Flerfärgad prasslig kattleksak" width="300"
-                        height="300" loading="lazy">
-                </picture>
-            </article>
-            <article id="basket-price">
-                <h3 class="roboto-bold">Totalsumma: 127:-</h3>
-                <div>
+            <section id="basket-end">
+                <div id="basket-price">
+                    <h3 class="roboto-bold">Totalsumma: 127:-</h3>
                     <p class="roboto-bold">Summa produkter: 108:-</p>
                     <p class="roboto-bold">Frakt: 19:-</p>
 
-            </article>
-            <section id="basket-keepShopping">
-                <h3 class="roboto-bold">Vill du köpa något mer?</h3>
-                <input type="button" id="moreShopping" value="Fortsätt handla"
-                    onclick="window.location.href='index.html'">
-            </section>
-            <section id="basket-toCheckout">
-                <h3 class="roboto-bold">Redo att betala?</h3>
-                <input type="button" id="toCheckout" value="Till kassan">
+                </div>
+                <div id="basket-keepShopping">
+                    <h3 class="roboto-bold">Vill du köpa något mer?</h3>
+                    <input type="button" id="moreShopping" value="Fortsätt handla"
+                        onclick="window.location.href='index.html'">
+                </div>
+                <div id="basket-toCheckout">
+                    <h3 class="roboto-bold">Redo att betala?</h3>
+                    <input type="button" id="toCheckout" value="Till kassan">
+                </div>
             </section>
         </main>
         <footer>
