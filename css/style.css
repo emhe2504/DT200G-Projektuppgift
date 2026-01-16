@@ -631,7 +631,7 @@
     font-size: 120%;
     font-weight: 500;
     color: white;
-    margin-left: 3%;
+    margin-left: 6%;
 }
 
 #djurBilder {
@@ -669,6 +669,26 @@ footer {
     #menu,
     #social-media {
         width: 66%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #login-div {
+        grid-template-columns: 50% 1fr;
+    }
+
+    #login-text1,
+    #login-text2,
+    #login-text3,
+    #login-text4 {
+        justify-self: left;
+        margin-left: 10%;
+    }
+
+    #djurBilder {
+        grid-template-columns: none;
+        justify-content: center;
     }
 }
 
@@ -905,14 +925,50 @@ footer {
     }
 
     #all-dogproducts,
-    #all-catproducts,
+    #all-catproducts {
+        grid-template-columns: none;
+        margin-top: 10%;
+    }
+
     #leash-pictures,
     #beigebowl-pictures,
     #catbowl-pictures,
     #catbed-pictures,
     #cattoy-pictures {
         grid-template-columns: none;
+        justify-content: center;
         margin-top: 10%;
+    }
+
+    #koppelbild1,
+    #kattbadd1,
+    #matskal1,
+    #kattskal1,
+    #leksak1 {
+        width: 250px;
+        height: 250px;
+        margin-right: 0;
+        margin-bottom: 10%;
+    }
+
+    #koppelbild2,
+    #kattbadd2,
+    #matskal2,
+    #kattskal2,
+    #leksak2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+
+    #koppelbild-stor,
+    #kattbadd-stor,
+    #matskal-stor,
+    #kattskal-stor,
+    #leksak-stor {
+        width: 400px;
+        height: 400px;
     }
 
     #dog-product1,
@@ -1024,6 +1080,46 @@ footer {
     #toCheckout {
         width: 30%;
     }
+
+    #login-div {
+        grid-template-columns: none;
+        width: 100%;
+    }
+
+    #djurBilder {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #Alice-login {
+        width: 150px;
+        height: 150px;
+        margin-right: 4%;
+    }
+
+    #Lilo-login {
+        width: 150px;
+        height: 150px;
+    }
+
+    #Lola-login {
+        width: 150px;
+        height: 150px;
+        margin-left: 4%;
+    }
+
+    #login-text1,
+    #login-text2,
+    #login-text3,
+    #login-text4 {
+        display: grid;
+        justify-self: center;
+        width: 80%;
+        margin-left: 0%;
+        font-size: 100%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -1068,6 +1164,39 @@ footer {
     #allProducts-head {
         font-size: 200%;
     }
+
+    #leash-video {
+        width: 80%;
+    }
+
+    #product-information {
+        width: 70%;
+        font-size: 90%;
+    }
+
+    #inBasket {
+        width: 70%;
+        height: 70vh;
+    }
+
+    #inbasket-text {
+        font-size: 160%;
+    }
+
+    #keepShopping {
+        font-size: 110%;
+        width: 45%;
+    }
+
+    #toBasket {
+        font-size: 110%;
+        width: 45%;
+    }
+
+    #shoppingbasket {
+        width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1141,6 +1270,15 @@ footer {
         font-size: 100%;
     }
 
+    #koppelbild-stor,
+    #kattbadd-stor,
+    #matskal-stor,
+    #kattskal-stor,
+    #leksak-stor {
+        width: 300px;
+        height: 300px;
+    }
+
     #product1-head,
     #product2-head,
     #product3-head,
@@ -1154,6 +1292,20 @@ footer {
     #product4-subhead {
         font-size: 100%;
         font-weight: normal;
+    }
+
+    #inbasket-text {
+        font-size: 140%;
+    }
+
+    #keepShopping {
+        font-size: 90%;
+        width: 52%;
+    }
+
+    #toBasket {
+        font-size: 90%;
+        width: 50%;
     }
 
     #moreShopping {
@@ -1170,6 +1322,20 @@ footer {
     #papperskorg2 {
         width: 35px;
         height: 35px;
+    }
+
+    #djurBilder {
+        width: 80%;
+    }
+
+    #Alice-login,
+    #Lilo-login,
+    #Lola-login {
+        display: grid;
+        justify-self: center;
+        width: 110px;
+        height: 110px;
+        margin: 0;
     }
 
 }
@@ -1210,5 +1376,25 @@ footer {
 
     #hero-subhead {
         display: none;
+    }
+
+    #leash-video {
+        height: 250px;
+    }
+
+    #dogpictures-big,
+    #beigebowl-big,
+    #catbowl-big,
+    #catbed-big,
+    #cattoy-big {
+        font-size: 100%;
+    }
+
+    #close-pictures,
+    #close-pictures2,
+    #close-pictures3,
+    #close-pictures4,
+    #close-pictures5 {
+        font-size: 100%;
     }
 }
