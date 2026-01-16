@@ -1,7 +1,12 @@
 #container {
+    display: grid;
     width: 100%;
     height: 100%;
     background-color: #f66161;
+}
+
+main {
+    display: grid;
 }
 
 .jomhuria {
@@ -270,6 +275,10 @@
     list-style: none;
 }
 
+#categories-hidden {
+    display: grid;
+}
+
 #categories-head {
     color: white;
     margin-left: 5%;
@@ -314,6 +323,14 @@
     margin-bottom: 8%;
 }
 
+#leash-section,
+#beigebowl-section,
+#catbowl-section,
+#catbed-section,
+#cattoy-section {
+    display: grid;
+}
+
 #all-dogproducts,
 #leash-pictures,
 #beigebowl-pictures,
@@ -321,6 +338,7 @@
 #catbed-pictures,
 #cattoy-pictures {
     display: grid;
+    justify-self: center;
     grid-template-columns: 1fr 1fr;
     margin-top: 4%;
 }
@@ -335,7 +353,7 @@
 #cat-product1 {
     display: grid;
     justify-self: right;
-    margin-right: 8%;
+    margin-right: 15%;
 }
 
 #cat-product2 {
@@ -348,7 +366,7 @@
 #cat-product3 {
     display: grid;
     justify-self: left;
-    margin-left: 8%;
+    margin-left: 15%;
 }
 
 #koppelbild1,
@@ -360,7 +378,7 @@
     border-radius: 10%;
     box-shadow: 5px 5px 5px rgb(242, 164, 164);
     justify-self: right;
-    margin-right: 4%;
+    margin-right: 20%;
 }
 
 
@@ -373,7 +391,7 @@
     border-radius: 10%;
     box-shadow: 5px 5px 5px rgb(242, 164, 164);
     justify-self: left;
-    margin-left: 4%;
+    margin-left: 20%;
 }
 
 #dogpictures-big,
@@ -430,6 +448,7 @@
 
 #inBasket {
     position: fixed;
+    display: grid;
     width: 80vh;
     height: 80vh;
     top: 50%;
@@ -482,15 +501,14 @@
 #keepShopping {
     display: grid;
     justify-self: center;
+    text-align: center;
     font-size: 150%;
     width: 40%;
     height: 55px;
     border: 3px solid #f5eff1;
     background-color: #f66161;
     color: #f8f1f4;
-    margin-bottom: 5%;
 }
-
 
 #toBasket {
     display: grid;
@@ -620,10 +638,15 @@
     margin-top: 3%;
 }
 
+#login-text {
+    display: grid;
+}
+
 #login-text1,
 #login-text2,
 #login-text3,
 #login-text4 {
+    display: grid;
     max-width: 58ch;
     justify-self: center;
     line-height: 1.5em;
@@ -1380,6 +1403,10 @@ footer {
 
     #leash-video {
         height: 250px;
+    }
+
+    #inBasket {
+        height: 50vh;
     }
 
     #dogpictures-big,
