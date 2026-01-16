@@ -589,10 +589,19 @@
     font-size: 120%;
 }
 
-#toCheckout,
-#moreShopping {
+#toCheckout {
     display: grid;
     width: 20%;
+    color: white;
+    background-color: #f66161;
+    border: 1px solid white;
+    font-size: 100%;
+    line-height: 2em;
+}
+
+#moreShopping {
+    display: grid;
+    width: 35%;
     color: white;
     background-color: #f66161;
     border: 1px solid white;
@@ -790,6 +799,15 @@ footer {
     #cat3-subhead {
         font-size: 120%;
     }
+
+    #basket-items,
+    #basket-end {
+        width: 80%;
+    }
+
+    #moreShopping {
+        width: 28%;
+    }
 }
 
 @media only screen and (max-width: 980px) {
@@ -967,6 +985,45 @@ footer {
     #product4-subhead {
         font-size: 130%;
     }
+
+    #basket-1,
+    #basket-2 {
+        grid-template-columns: none;
+        border-bottom: 1px solid #f66161;
+        padding-bottom: 5%;
+        padding-left: 0;
+    }
+
+    #ba-1,
+    #ba-2,
+    #ba-3,
+    #ba-5,
+    #ba-6,
+    #ba-7 {
+        display: grid;
+        justify-self: center;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    #ba-4,
+    #ba-8 {
+        padding-bottom: 0;
+        padding-right: 5%;
+        border-bottom: none;
+    }
+
+    #basket-price {
+        grid-template-columns: none;
+    }
+
+    #moreShopping {
+        width: 35%;
+    }
+
+    #toCheckout {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -1099,6 +1156,22 @@ footer {
         font-weight: normal;
     }
 
+    #moreShopping {
+        font-size: 80%;
+        width: 38%;
+    }
+
+    #toCheckout {
+        width: 34%;
+        font-size: 80%;
+    }
+
+    #papperskorg1,
+    #papperskorg2 {
+        width: 35px;
+        height: 35px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -1113,22 +1186,17 @@ footer {
     }
 
     #login {
+        font-size: 100%;
         justify-self: center;
     }
 
     #logotyp {
-        width: 75px;
-        height: 75px;
+        width: 80px;
+        height: 80px;
     }
 
     #header-head {
-        font-size: 180%;
-    }
-
-    #basket-bild,
-    #sok-bild {
-        width: 30px;
-        height: 30px;
+        font-size: 200%;
     }
 
     #hero-text {
