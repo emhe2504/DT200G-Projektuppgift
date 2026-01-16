@@ -193,6 +193,7 @@ function itemInBasket() {
 
 function basketOptions() {
 
+    const inBasketArticle = document.getElementById("inBasket");
     const keepShopping = document.getElementById("keepShopping");
     const toBasket = document.getElementById("toBasket");
 
