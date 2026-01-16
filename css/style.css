@@ -296,12 +296,22 @@
 #catbowl-head,
 #catbed-head,
 #cattoy-head,
-#yourBasket {
+#yourBasket,
+#all-dog {
     display: grid;
     text-align: center;
     color: white;
     font-size: 250%;
     margin-top: 4%;
+}
+
+#allProducts-head {
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    margin-top: 4%;
+    margin-bottom: 8%;
 }
 
 #all-dogproducts,
@@ -743,6 +753,43 @@ footer {
     #products2 {
         order: 1;
     }
+
+    #cat-product1 {
+        justify-self: center;
+        margin-right: 0;
+        margin-left: 5%;
+    }
+
+    #cat-product3 {
+        justify-self: center;
+        margin-left: 0;
+        margin-right: 5%;
+    }
+
+    #kattskal,
+    #kattbadd,
+    #leksak {
+        display: grid;
+        justify-self: center;
+        width: 250px;
+        height: 250px;
+    }
+
+    #dog1-head,
+    #dog2-head,
+    #cat1-head,
+    #cat2-head,
+    #cat3-head {
+        font-size: 150%;
+    }
+
+    #dog1-subhead,
+    #dog2-subhead,
+    #cat1-subhead,
+    #cat2-subhead,
+    #cat3-subhead {
+        font-size: 120%;
+    }
 }
 
 @media only screen and (max-width: 980px) {
@@ -840,23 +887,41 @@ footer {
     }
 
     #all-dogproducts,
+    #all-catproducts,
     #leash-pictures,
     #beigebowl-pictures,
     #catbowl-pictures,
     #catbed-pictures,
     #cattoy-pictures {
         grid-template-columns: none;
+        margin-top: 10%;
     }
 
-    #dog-product1 {
+    #dog-product1,
+    #cat-product1 {
         justify-self: center;
         margin-right: 0;
+        margin-left: 0;
     }
 
-    #dog-product2 {
+    #dog-product2,
+    #cat-product2,
+    #cat-product3 {
         justify-self: center;
         margin-left: 0;
+        margin-right: 0;
         margin-top: 4%;
+    }
+
+    #kattskal,
+    #kattbadd,
+    #leksak {
+        width: 300px;
+        height: 300px;
+    }
+
+    #all-dog {
+        margin-top: 15%;
     }
 
     #menu,
@@ -934,14 +999,17 @@ footer {
         font-size: 120%;
     }
 
-    #dog1-head,
-    #dog2-head {
-        font-size: 150%;
-    }
-
-    #dog1-subhead,
-    #dog2-subhead {
-        font-size: 120%;
+    #dog-products,
+    #leash-head,
+    #beigebowl-head,
+    #cat-products,
+    #catbowl-head,
+    #catbed-head,
+    #cattoy-head,
+    #yourBasket,
+    #all-dog,
+    #allProducts-head {
+        font-size: 200%;
     }
 }
 
