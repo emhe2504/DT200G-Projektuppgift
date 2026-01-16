@@ -169,7 +169,10 @@ main {
 
 #dog-link,
 #cat-link,
-#all-link {
+#all-link,
+#dog-link2,
+#cat-link2,
+#all-link2 {
     color: white;
     text-decoration: none;
 }
@@ -199,7 +202,12 @@ main {
 #product1-link,
 #product2-link,
 #product3-link,
-#product4-link {
+#product4-link,
+#product1-link1,
+#product2-link1,
+#product3-link1,
+#product4-link1,
+#product5-link1 {
     color: white;
     text-decoration: none;
 }
@@ -986,10 +994,15 @@ footer {
     }
 
     #koppelbild-stor,
+    #koppelbild-stor2,
     #kattbadd-stor,
+    #kattbadd-stor2,
     #matskal-stor,
+    #matskal-stor2,
     #kattskal-stor,
-    #leksak-stor {
+    #kattskal-stor2,
+    #leksak-stor
+    #leksak-stor2 {
         width: 400px;
         height: 400px;
     }
@@ -1294,10 +1307,15 @@ footer {
     }
 
     #koppelbild-stor,
+    #koppelbild-stor2,
     #kattbadd-stor,
+    #kattbadd-stor2,
     #matskal-stor,
+    #matskal-stor2,
     #kattskal-stor,
-    #leksak-stor {
+    #kattskal-stor2,
+    #leksak-stor
+    #leksak-stor2 {
         width: 300px;
         height: 300px;
     }
