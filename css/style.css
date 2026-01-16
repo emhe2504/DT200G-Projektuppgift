@@ -22,10 +22,10 @@
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
-header {
+#start-header {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
     background-color: #fb6161;
@@ -285,7 +285,7 @@ header {
     justify-self: center;
     border: 3px solid white;
     padding: 2%;
-    width: 50%;
+    width: 55%;
     font-size: 120%;
 }
 
@@ -655,7 +655,7 @@ footer {
 
 @media only screen and (max-width: 1450px) {
 
-    header,
+    #start-header,
     #just-header {
         grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
     }
@@ -678,7 +678,7 @@ footer {
 
 @media only screen and (max-width: 1300px) {
 
-    header,
+    #start-header,
     #just-header {
         grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
     }
@@ -694,6 +694,12 @@ footer {
 
     #hero-subhead {
         font-size: 120%;
+    }
+
+    #dog-cate,
+    #cat-cate,
+    #all-cate {
+        width: 70%;
     }
 
     #start-section1 {
@@ -741,7 +747,7 @@ footer {
 
 @media only screen and (max-width: 980px) {
 
-    header,
+    #start-header,
     #just-header {
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     }
@@ -777,6 +783,45 @@ footer {
 
     #start-head {
         font-size: 200%;
+    }
+
+    #section1-categories {
+        grid-template-columns: none;
+    }
+
+    #categories {
+        grid-template-columns: none;
+        padding-left: 0;
+    }
+
+    #categories-head {
+        justify-self: center;
+        margin-left: 0;
+        font-size: 140%;
+        border: 2px solid white;
+        width: 30%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    #dog-cate,
+    #cat-cate,
+    #all-cate {
+        width: 40%;
+        margin-bottom: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    #close-menu {
+        display: grid;
+        justify-self: center;
+        margin-bottom: 6%;
+        background-color: #f66161;
+        border: 1px solid white;
+        color: white;
+        padding: 1%;
+        font-size: 100%;
     }
 
     #menu,
@@ -852,7 +897,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-   #header-head {
+    #header-head {
         font-size: 220%;
     }
 
@@ -861,7 +906,7 @@ footer {
         height: 100px;
     }
 
-     #login {
+    #login {
         font-size: 90%;
     }
 
@@ -923,7 +968,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
 
-    header,
+    #start-header,
     #just-header {
         grid-template-columns: 1fr 2fr 1fr 0.5fr 1.5fr;
     }
@@ -935,12 +980,12 @@ footer {
     #login {
         justify-self: center;
     }
-    
+
     #logotyp {
         width: 75px;
         height: 75px;
     }
-    
+
     #header-head {
         font-size: 180%;
     }
@@ -950,7 +995,7 @@ footer {
         width: 30px;
         height: 30px;
     }
-    
+
     #hero-text {
         left: 32%;
         top: 17%;

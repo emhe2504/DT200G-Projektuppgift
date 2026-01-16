@@ -20,6 +20,11 @@ function initPage() {
     goBackFive();
     itemInBasket();
     basketOptions();
+    functionMenu();
+    getMenu();
+    awayMenu();
+
+    window.addEventListener("resize", functionMenu);
     
 }
 
@@ -208,4 +213,52 @@ function basketOptions() {
             window.location.href = "shoppingbasket.html";
         });
     }
+};
+
+function functionMenu() {
+
+    const menu = document.getElementById("categories");
+
+    if (window.innerWidth <= 980) {
+        menu.classList.add("hidden");
+        document.getElementById("categories-head").innerHTML="Produktmeny &#x21e9;"
+
+    } else {
+        menu.classList.remove("hidden");
+        document.getElementById("categories-head").innerHTML="Produktkategorier: "
+    }
+
+};
+
+function getMenu() {
+
+    const menu = document.getElementById("categories");
+    const menuLink = document.getElementById("categories-head");
+    const closeMenu = document.getElementById("close-menu");
+
+    menuLink.addEventListener("click", () => {
+
+        if (menu.classList.contains("hidden")) {
+            menu.classList.remove("hidden");
+            closeMenu.classList.remove("hidden");
+            menuLink.classList.add("hidden");
+        }
+    });
+
+};
+
+function awayMenu() {
+
+    const menu = document.getElementById("categories");
+    const closeMenu = document.getElementById("close-menu");
+    const menuLink = document.getElementById("categories-head");
+
+    closeMenu.addEventListener("click", () => {
+
+        if (menu.classList.contains("hidden") === false) {
+            menu.classList.add("hidden");
+            closeMenu.classList.add("hidden");
+            menuLink.classList.remove("hidden");
+        }
+    });
 };
