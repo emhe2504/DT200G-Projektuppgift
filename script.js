@@ -20,12 +20,11 @@ function initPage() {
     goBackFive();
     itemInBasket();
     basketOptions();
-    functionMenu();
-    getMenu();
+    newMenu();
+    getNewMenu();
     awayMenu();
 
-    window.addEventListener("resize", functionMenu);
-    
+    window.addEventListener("resize", newMenu);
 }
 
 function bigDogPic() {
@@ -215,50 +214,59 @@ function basketOptions() {
     }
 };
 
-function functionMenu() {
 
-    const menu = document.getElementById("categories");
+function newMenu() {
 
-    if (window.innerWidth <= 980) {
-        menu.classList.add("hidden");
-        document.getElementById("categories-head").innerHTML="Produktmeny &#x21e9;"
-
-    } else {
-        menu.classList.remove("hidden");
-        document.getElementById("categories-head").innerHTML="Produktkategorier: "
-    }
-
-};
-
-function getMenu() {
-
-    const menu = document.getElementById("categories");
-    const menuLink = document.getElementById("categories-head");
+    const oldMenu = document.getElementById("section1-categories");
+    const menuLink = document.getElementById("head-hidden")
+    const menu = document.getElementById("categories-hidden");
     const closeMenu = document.getElementById("close-menu");
 
-    menuLink.addEventListener("click", () => {
+    if (window.innerWidth <= 980) {
+        oldMenu.classList.add("hidden");
+        menuLink.classList.remove("hidden");
 
-        if (menu.classList.contains("hidden")) {
+    } else {
+        oldMenu.classList.remove("hidden");
+        menuLink.classList.add("hidden");
+        menu.classList.add("hidden");
+        closeMenu.classList.add("hidden");
+    }
+};
+
+function getNewMenu() {
+
+    const menu = document.getElementById("categories-hidden");
+    const menuLink = document.getElementById("head-hidden");
+    const closeMenu = document.getElementById("close-menu");
+
+    if (menuLink.classList.contains("hidden") === false) {
+
+        menuLink.addEventListener("click", () => {
+
             menu.classList.remove("hidden");
             closeMenu.classList.remove("hidden");
             menuLink.classList.add("hidden");
-        }
-    });
+        });
+
+    }
 
 };
 
 function awayMenu() {
 
-    const menu = document.getElementById("categories");
+    const menu = document.getElementById("categories-hidden");
     const closeMenu = document.getElementById("close-menu");
-    const menuLink = document.getElementById("categories-head");
+    const menuLink = document.getElementById("head-hidden");
 
-    closeMenu.addEventListener("click", () => {
+    if (closeMenu) {
 
-        if (menu.classList.contains("hidden") === false) {
+        closeMenu.addEventListener("click", () => {
+
             menu.classList.add("hidden");
             closeMenu.classList.add("hidden");
             menuLink.classList.remove("hidden");
-        }
-    });
+        });
+
+    }
 };

@@ -40,7 +40,7 @@
         </header>
         <main>
             <section id="section1-categories">
-                <h3 class="roboto-bold" id="categories-head">Produktkategorier:</h3>
+                <h2 class="roboto-bold" id="categories-head">Produktkategorier:</h2>
                 <ul id="categories">
                     <li class="roboto-bold" id="dog-cate"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
                     </li>
@@ -50,6 +50,18 @@
                             produkter</a></li>
                 </ul>
             </section>
+            <section id="hidden-section">
+                <h2 class="roboto-bold" id="head-hidden" class="hidden">Produktmeny &#x21e9;</h2>
+                <ul id="categories-hidden" class="hidden">
+                    <li class="roboto-bold" id="dog-hidden"><a href="dog-products.html" id="dog-link">&#128054 Hund</a>
+                    </li>
+                    <li class="roboto-bold" id="cat-hidden"><a href="cat-products.html" id="cat-link">&#128049 Katt</a>
+                    </li>
+                    <li class="roboto-bold" id="all-hidden"><a href="all-products.html" id="all-link">Visa alla
+                            produkter</a></li>
+                </ul>
+            </section>
+            <input type="button" id="close-menu" value="Stäng meny &#x2191;" class="roboto-bold hidden">
             <section id="catproducts-section">
                 <h2 class="roboto-bold" id="cat-products">Katt</h2>
                 <div id="all-catproducts">
@@ -99,6 +111,8 @@
             </section>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
