@@ -1002,8 +1002,7 @@ footer {
     #matskal-stor2,
     #kattskal-stor,
     #kattskal-stor2,
-    #leksak-stor
-    #leksak-stor2 {
+    #leksak-stor #leksak-stor2 {
         width: 400px;
         height: 400px;
     }
@@ -1315,8 +1314,7 @@ footer {
     #matskal-stor2,
     #kattskal-stor,
     #kattskal-stor2,
-    #leksak-stor
-    #leksak-stor2 {
+    #leksak-stor #leksak-stor2 {
         width: 300px;
         height: 300px;
     }
