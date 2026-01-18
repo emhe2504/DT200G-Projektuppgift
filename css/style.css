@@ -142,6 +142,13 @@ main {
     width: 55%;
 }
 
+#freepik {
+    display: grid;
+    justify-self: center;
+    color: white;
+    font-size: 90%;
+}
+
 #menu-head,
 #socials-head {
     color: white;
