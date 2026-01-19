@@ -567,7 +567,7 @@ main {
 #ba-7,
 #ba-8 {
     padding-bottom: 8%;
-    border-bottom: 1px solid #f66161;
+    border-bottom: 1px solid black;
 }
 
 #firstItem,
@@ -575,7 +575,7 @@ main {
 #Item-price1,
 #Item-price2 {
     justify-self: center;
-    color: #f66161;
+    color: black;
     font-size: 150%;
 }
 
@@ -609,7 +609,7 @@ main {
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 4%;
-    color: #f66161;
+    color: black;
     font-size: 120%;
 }
 
@@ -619,16 +619,16 @@ main {
     display: grid;
     margin-top: 4%;
     margin-left: 6%;
-    color: #f66161;
+    color: black;
     font-size: 120%;
 }
 
 #toCheckout {
     display: grid;
     width: 20%;
-    color: white;
-    background-color: #f66161;
-    border: 1px solid white;
+    color: black;
+    background-color: #f68787;
+    border: 1px solid black;
     font-size: 100%;
     line-height: 2em;
 }
@@ -636,9 +636,9 @@ main {
 #moreShopping {
     display: grid;
     width: 35%;
-    color: white;
-    background-color: #f66161;
-    border: 1px solid white;
+    color: black;
+    background-color: #f68787;
+    border: 1px solid black;
     font-size: 100%;
     line-height: 2em;
 }
